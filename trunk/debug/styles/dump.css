@@ -1,0 +1,131 @@
+ul div {
+	height: 16px;
+}
+ul.tree {
+	font-family: Tahoma,Sans-serif;
+	font-size: 11px;
+	cursor: default;
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	width: 100%;
+}
+ul.tree li {
+	clear: both;
+	border: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 16px;
+}
+ul.tree div {
+}
+ul.tree.js li.root {
+	margin: 1px 3px;
+}
+ul.tree.js li.root ul {
+	margin-left: 2px;
+}
+ul.tree.js li.root ul ul,
+ul.tree.js ul {
+	padding: 0;
+	margin-left: 20px;
+}
+ul.tree.js li {
+	margin: 0;
+	padding: 0;
+	background: url("i.gif") 0 0 repeat-y;
+}
+ul.tree.js.text,
+ul.tree.js li.text,
+ul.tree.js ul.text {
+	line-height: 16px;
+}
+ul.tree.js li.last {
+	background-image: none;
+}
+ul.tree.js li.collapsed ul {
+	display: none;
+}
+ul.tree.js li div.a {
+	background: url("t.gif") 0 0 no-repeat;
+}
+ul.tree.js li.root div.a.children div.b {
+	background-image: none;
+}
+ul.tree.js li.root li div.a.children div.b,
+ul.tree.js li div.a.children div.b {
+	background: url("collapse.gif") 0 0 no-repeat;
+}
+ul.tree.js li.root.collapsed div.a.children div.b {
+	background-image: none;
+}
+ul.tree.js li.root li.collapsed div.a.children div.b,
+ul.tree.js li.collapsed div.a.children div.b {
+	background: url("expand.gif") 0 0 no-repeat;
+}
+ul.tree.js li.root.last div.a {
+	background-image: none;
+}
+ul.tree.js li.root.last li div.a,
+ul.tree.js li.last div.a {
+	background: url("l.gif") 0 0 no-repeat;
+}
+ul.tree.js li.root div.b {
+	padding-left: 0;
+}
+ul.tree.js li.root li div.b,
+ul.tree.js li div.b {
+	padding-left: 17px;
+}
+ul.tree a {
+	color: black;
+	text-decoration: none;
+	margin-left: 1px;
+	padding: 1px 2px;
+}
+ul.tree a:hover {
+}
+ul.tree a.active {
+	background-color: buttonface;
+	color: buttontext;
+}
+ul.tree.js.active a.active,
+ul.tree.js.active a.active span {
+	background-color: navy;
+	color: white;
+}
+ul.tree a.tagged {
+	font-weight: bold;
+}
+ul.tree b {
+	color: blue;
+	margin-left: 2px;
+	font-weight: normal;
+}
+ul.tree em {
+	color: black;
+	background-color: inherit;
+	font-style: normal;
+}
+ul.tree img {
+	border: none;
+	vertical-align: top;
+}
+ul.tree input {
+	font-size: 11px;
+	margin: -1px 0 -1px 1px;
+	height: 14px;
+	padding: 0 2px;
+	border: 1px solid buttonshadow;
+	border-right: 1px solid buttonface;
+	border-bottom: 1px solid buttonface;
+}
+ul.tree input.checkbox {
+	margin: 0 2px 0 0;
+	padding: 0;
+	width: 13px;
+	height: 13px;
+}
