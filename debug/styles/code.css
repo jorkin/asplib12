@@ -1,0 +1,33 @@
+samp {
+}
+samp * {
+}
+samp span {
+	color: teal;
+}
+samp span.html {
+	color: #000000;
+}
+samp b {
+	color: red;
+}
+samp b.html {
+	color: maroon;
+}
+samp b.attr {
+	color: navy;
+}
+samp i {
+	font-style: normal;
+	color: green;
+}
+samp i.html {
+	color: gray;
+}
+samp u {
+	text-decoration: none;
+	color: navy;
+}
+samp q {
+	color: blue;
+}
